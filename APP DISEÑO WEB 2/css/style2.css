@@ -1,0 +1,122 @@
+:root{
+	--f7-theme-color:#5079FE;
+	--f7-navbar-bg-color: #fff; /*navbar*/
+	--f7-navbar-link-color: #5079FE; /*navbar link*/
+	--f7-navbar-text-color:#7C899F;
+	--f7-bars-bg-color:#fff;/*toolbar*/
+	--f7-tabbar-link-inactive-color: #333; /*link toolbar*/
+	--f7-block-margin-vertical:20px;
+	--f7-card-footer-border-color:transparent; 
+}
+
+
+.color_rosa{
+	background-color: #f5dfe2;
+}
+
+.navbar {
+  background: #fddce5;
+  padding: 15px 0;
+  text-align: center;
+}
+
+.rec {
+  width: 100%;
+  border-radius: 12px;
+  background: white;
+  padding: 8px;
+}
+
+.opiniones .puntuacion {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #ff9900;
+}
+
+
+.img-grande {
+  width: 80%;
+  border-radius: 12px;
+  padding-left: 20px;
+  padding-top: 50px;
+}
+
+.mini-img {
+  width: 100%;
+  height: 80%;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.separacion{
+	padding-right: 50px;
+}
+
+.img-ajuste{
+	width: 100px;
+}
+
+.img-tamano{
+	width: 100px;
+}
+
+.colores {
+  display: flex;
+  gap: 8px;
+  margin-top: 10px;
+  padding-left: 20px;
+}
+.color {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+}
+.color.rojo { background: #e60023; }
+.color.fucsia { background: #ff007f; }
+.color.rosa { background: #ff99cc; }
+.color.vino { background: #800020; }
+
+.rec-cor{
+	padding-left: 10px;
+}
+
+.card-tamano{
+	padding-bottom: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.dis{
+	padding-top: 80px;
+}
+
+.des-tamano{
+	padding-right:
+}
+
+.punto{
+	list-style-type: none;
+}
+
+
+.fondo {
+  background-color: #fcdce3;
+}
+
+
+.subnavbar-inner.nav-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-links .link {
+  font-weight: 600;
+  font-size: 9px;
+  color: #000;
+  padding: 6px 10px;
+  border-radius: 6px;
+  white-space: nowrap;
+  transition: 0.3s;
+}
+

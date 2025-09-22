@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Framework7</title>
+<link href="css/framework7.bundle.min.css" rel="stylesheet">
+<script src="https://kit.fontawesome.com/d6ca5adea4.js" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+	
+	<div id="app">
+			
+	 <nav class="menu-horizontal">
+      <a href="index.html" class="active" onclick="loadPage('tienda', this)">Home</a>
+      <a href="tienda.html" onclick="loadPage('marcas', this)">Tienda</a>
+      <a href="productos.html" onclick="loadPage('skincare', this)">Productos</a>
+      <a href="about.html" onclick="loadPage('acerca', this)">Acerca</a>
+      <a href="#" onclick="loadPage('perfil', this)">Perfil</a>
+    </nav>
+
+		<section class="search"> 
+			<div class="search-container">
+					<input type="text" class="search-bar" placeholder="Search...">
+					<div class="icons">
+				
+						<i class="fa-solid fa-magnifying-glass icon" ></i>
+						
+					
+						<i class="fa-solid fa-filter icon"></i>
+					
+				</div>
+			</div>
+		</section>
+	<section class="products">
+		<div class="container">
+			<div class="row products-box">
+				<div class="col-50">
+					<img src="img/woman.jpg" alt="" class="img-fluid">
+				</div>
+				<div class="col-50">
+					<h4 class="raleway-text">Face</h4>
+					<ul class="raleway-text no-dots">
+						<li>Foundations</li>
+						<li>Blush</li>
+						<li>Bronzers & Contours</li>
+						<li>Concealers</li>
+						<li>Highlighters</li>
+						<li>Primers</li>
+						
+					</ul>
+				</div>
+			</div>
+			<div class="row products-box">
+				<div class="col-50">
+					<img src="img/eyeshadow.jpg" alt="" class="img-fluid">
+				</div>
+				<div class="col-50">
+					<h4 class="raleway-text">Eyes</h4>
+					<ul class="raleway-text no-dots">
+						<li>Mascaras</li>
+						<li>Eyeshadows</li>
+						<li>Eye pencils</li>
+						<li>Eyebrows</li>
+						<li>Eyeliners</li>
+						
+						
+					</ul>
+				</div>
+			</div>
+			<div class="row products-box">
+				<div class="col-50">
+					<img src="img/lips.jpg" alt="" class="img-fluid">
+				</div>
+				<div class="col-50">
+					<h4 class="raleway-text">Lips</h4>
+					<ul class="raleway-text no-dots">
+						<li>Lipsticks</li>
+						<li>Lipglosses</li>
+						<li>Lip pencils</li>
+						<li>Lip primers</li>
+						
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+		
+		
+		
+		
+	</div><!--/app -->
+	
+	
+	<script src="js/framework7.bundle.min.js"></script>
+	<script src="js/app.js"></script>
+	
+	
+	
+	
+	
+</body>
+</html>
